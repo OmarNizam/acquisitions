@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "lint": "eslint .",
-    "eslint-fix": "eslint . --fix",
+    "eslint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format-check": "prettier --check ."
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
