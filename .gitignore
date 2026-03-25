@@ -17,3 +17,5 @@ logs/
 *.log
 # OS generated files
 Thumbs.db
+./drizzle/
+migrations/
