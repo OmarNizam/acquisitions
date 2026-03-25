@@ -9,8 +9,9 @@
     "eslint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "drizzle:generate": "drizzle-kit generate:pg --out migrations --schema src/models/schema.js",
-    "drizzle:migrate": "drizzle-kit migrate:pg --out migrations"
+    "drizzle:generate": "drizzle-kit generate",
+    "drizzle:migrate": "drizzle-kit migrate",
+    "drizzle:rollback": "drizzle-kit rollback"
   },
   "repository": {
     "type": "git",
