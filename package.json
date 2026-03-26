@@ -11,7 +11,9 @@
     "format:check": "prettier --check .",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:rollback": "drizzle-kit rollback"
+    "db:rollback": "drizzle-kit rollback",
+    "docker-compose:up": "docker-compose up",
+    "docker-compose:down": "docker-compose down"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
   },
   "homepage": "https://github.com/OmarNizam/acquisitions#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.100.0",
+    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "drizzle-orm": "^0.45.1",
     "express": "^5.2.1",
