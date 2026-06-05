@@ -1,3 +1,4 @@
+version: '3'
 services:
   api:
     build:
@@ -5,7 +6,7 @@ services:
       dockerfile: Dockerfile
       target: development
     ports:
-      - "3000:3000"
+      - '3000:3000'
     volumes:
       - ./src:/app/src
       - ./package.json:/app/package.json

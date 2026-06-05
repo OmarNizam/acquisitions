@@ -1,5 +1,3 @@
-// config/postgres.js
-// PostgreSQL configuration file
 import 'dotenv/config';
 import { Pool } from 'pg';
 
